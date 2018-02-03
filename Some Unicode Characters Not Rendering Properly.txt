@@ -1,0 +1,7 @@
+Issue: Certain unicode characters don't render
+
+- This was breaking hyper terminals PS1 rendering
+
+Solution: Install ttf-dejavu
+
+- # sudo pacman -S ttf-dejavu
