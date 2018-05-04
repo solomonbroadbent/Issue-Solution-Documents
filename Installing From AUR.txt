@@ -1,0 +1,13 @@
+NOTES How to install a given package from the Arch User Repository
+
+Searching:
+- install yaourt from https://aur.archlinux.org/yaourt.git as per the instructions below
+- yaourt can be used for searching and installation
+
+Installing:
+- alternatively, yaourt can be used for installation
+- cd ~/Build
+- # git clone https://aur.archlinux.org/<package name>.git
+- Check PKGBUILD and <package name>.install for malicious code
+- # makepkg --syncdeps --clean --install
+- # sudo pacamn -U <package-name>.pkg.tar.xz

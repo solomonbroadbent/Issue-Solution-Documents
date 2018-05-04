@@ -1,0 +1,4 @@
+# timedatectl set-timezone Pacific/Auckland
+# timedatectl set-ntp true
+# timedatectl status
+Reload I3

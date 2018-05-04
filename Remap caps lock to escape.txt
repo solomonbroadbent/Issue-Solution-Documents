@@ -1,0 +1,4 @@
+1. # sudo pacman -S xorg-setxkbdmap
+2. Edit .xinitrc with the instructions in the link: 
+
+https://superuser.com/questions/566871/how-to-map-the-caps-lock-key-to-escape-key-in-arch-linux

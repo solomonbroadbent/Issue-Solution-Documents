@@ -1,0 +1,5 @@
+ERROR: Keys keep failing with pacman installs and the like
+- Use # pacman-keys --init
+- And then # pacman-keys --populate archlinux
+- Seems to completely fix the outdated keys issue
+- Command # pacman-keys --refresh # doesn't seem to work in all situations

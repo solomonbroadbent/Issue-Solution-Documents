@@ -1,0 +1,7 @@
+ERROR: Wifi-Menu fails. Initial message: job for netctl...
+
+- Told to use command systemctl status netctl...
+- Shows error: Interface of network profile ... is already up
+- Use # ip link # Shows network interfaces names (w1p1s0 is the desired interface name)
+- Use # sudo ip link set w1p1s0 down # To disable interface
+- Use # netctl start w1p1s0-broadbent\ wifi # To enable WiFi with netctl

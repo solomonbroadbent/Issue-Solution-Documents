@@ -1,0 +1,12 @@
+ISSUE: Hyper Terminal doesn't launch
+
+- After installation Hyper Terminal wouldn't open
+- I could instigate an error by running # sudo /usr/bin/hyper
+	- # error while loading shared libraries: libgtk-x11-2.0.so.0
+- Also couldn't launch in xterm with # sudo xinit /usr/bin/hyper $* -- :1
+	- May have been unrelated
+
+FIX: Install GTK2
+
+- It seems libgtk2-x11-2.0.so.0 is a part of GTK2
+- # sudo pacman -S gtk2
