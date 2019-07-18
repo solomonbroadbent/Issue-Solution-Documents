@@ -2,3 +2,6 @@ ISSUE: Flickering screen and FIFO pipeline error
 - Add i915.enable_rc6=0 to GRUB_CMDLINE_LINUX_DEFUALT variable in /etc/default/grub
 - Run # grub-mkconfig -o /boot/grub/grub.cfg
 	- This also seems to fix the detection of Windows 10
+- Didn't seem to work so added intel_idle.max_cstate=5 to GRUB_CMDLINE_LINUX_DEFAULT variable in /etc/default/grub as well
+- Needed to run # sudo grub-mkconfig -o /boot/grub/grub.cfg to apply it
+- Apparently it can have values between 1 and 9 with higher values yielding better power consumption supposedly. 5 seems to be the highest stable value SO HAPPY THIS IS FINALLY FIXED!! :D. See https://bbs.archlinux.org/viewtopic.php?id=243307
