@@ -1,0 +1,10 @@
+- # yaourt -S g810-led-git
+- Allow user to execute g610 driver without password so it can be scripted:
+	- # sudo visudo
+	- Add line: solomon ALL:NOPASSWD:/usr/bin/g610-led
+- Make it automatically set to 100% brightness on boot by adding the following to /etc/g810-led/profile:
+	- # Set all keys to full brightness
+	- a 100
+	- # Commit the change
+	- c
+- More info about commands at https://github.com/MatMoul/g810-led or with # g610-led --help
