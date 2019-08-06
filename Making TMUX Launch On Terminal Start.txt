@@ -1,0 +1,3 @@
+Source: https://unix.stackexchange.com/questions/41274/having-tmux-load-by-default-when-a-zsh-terminal-is-launched
+
+Added line: if [ "$TMUX" = "" ]; then tmux; fi to start of ~/.zshrc

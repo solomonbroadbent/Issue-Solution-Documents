@@ -1,0 +1,6 @@
+1. # yaourt -S j4-dmenu-desktop
+2. Had issue compiling so followed https://github.com/enkore/j4-dmenu-desktop/issues/71
+3. Meant I had to add "ExternalProject_Add() { GIT_TAG Catch1.x }" in the CMake build script when yaourt asks
+4. Changed dmenu part of i3 config to:
+	bindsym $mod+space exec j4-dmenu-desktop --dmenu="dmenu -i -fn 'Fira Code-13' -nb '$blueGrey900'    -nf '$blueGrey300' -sb '$blueGrey800' -sf '$red400'"
+  # bindsym $mod+space exec --no-startup-id dmenu_run -i -fn 'Fira Code-13' -nb '$blueGrey900' -nf    '$blueGrey300' -sb '$blueGrey800' -sf '$red400'

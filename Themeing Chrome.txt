@@ -1,0 +1,5 @@
+Installing Adapta GTK theme: https://github.com/adapta-project/adapta-gtk-theme
+Changed gtk-theme-name to Adapta-Nokto in gtk2 and 3 rc
+
+
+Useful example: https://www.reddit.com/r/unixporn/comments/7lq2hx/adapta_themed_i3gaps_rice/ 

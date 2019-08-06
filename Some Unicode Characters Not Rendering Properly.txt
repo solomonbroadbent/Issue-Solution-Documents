@@ -5,3 +5,4 @@ Issue: Certain unicode characters don't render
 Solution: Install ttf-dejavu
 
 - # sudo pacman -S ttf-dejavu
+- # sudo yaourt -S noto-fonts-emoji

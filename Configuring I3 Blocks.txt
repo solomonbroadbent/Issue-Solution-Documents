@@ -1,0 +1,6 @@
+1. Installed i3-blocks # sudo pacman -S i3-blocks
+2. Added the following parts to the config:
+	# I3 gaps
+	for_window [class="^.*"] border pixel 1 # Disables window titles
+	gaps inner 10
+	gaps outer 0

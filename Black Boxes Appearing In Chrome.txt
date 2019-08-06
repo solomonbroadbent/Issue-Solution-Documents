@@ -1,0 +1,1 @@
+Disabled hardware acceleration in chrome as per the instructions at https://productforums.google.com/forum/#!topic/chrome/pk6zbgfe4GI
