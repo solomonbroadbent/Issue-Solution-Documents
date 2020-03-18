@@ -1,0 +1,14 @@
+- yay -S bluez bluez-utils
+- sudo systemctl start bluetooth
+- bluetoothctl
+	- power on
+	- pairable on
+	- scan on
+	- (wait for device to show)
+	- scan off
+	- devices
+	- pair <MAC address>
+	- (wait for successful pairing)
+	- connect <MAC address>
+	- (wait for successful connection)
+	- exit
