@@ -3,8 +3,12 @@
 	- # sudo visudo
 	- Add line: solomon ALL:NOPASSWD:/usr/bin/g610-led
 - Make it automatically set to 100% brightness on boot by adding the following to /etc/g810-led/profile:
-	- # Set all keys to full brightness
-	- a 100
+	- # Set all keys to white
+	- a ffffff
+	- # Set logo to white
+	- k logo ffffff
 	- # Commit the change
 	- c
+- Make this effective on startup by adding to ~/.xinitrc
+	- g610-led -p /etc/g810-led/profile
 - More info about commands at https://github.com/MatMoul/g810-led or with # g610-led --help
