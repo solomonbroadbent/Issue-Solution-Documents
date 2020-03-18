@@ -1,0 +1,4 @@
+- need to disable fast boot in windows
+- https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi
+- https://www.reddit.com/r/archlinux/comments/9kzmy1/intel_9260_wifiadapter_iwlwifi_error/
+- https://forums.gentoo.org/viewtopic-t-1104130-start-0.html
